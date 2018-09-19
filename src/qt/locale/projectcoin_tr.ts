@@ -395,7 +395,7 @@
     </message>
     </context>
 <context>
-    <name>ZPrjControlDialog</name>
+    <name>ZZbxControlDialog</name>
     </context>
 <context>
     <name>zencoin-core</name>

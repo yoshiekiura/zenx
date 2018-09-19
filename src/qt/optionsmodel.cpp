@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::PRJ);
+        settings.setValue("nDisplayUnit", BitcoinUnits::Zbx);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nObfuscationRounds"))
         settings.setValue("nObfuscationRounds", 2);
 
-    if (!settings.contains("nAnonymizePrjAmount"))
-        settings.setValue("nAnonymizePrjAmount", 1000);
+    if (!settings.contains("nAnonymizeZbxAmount"))
+        settings.setValue("nAnonymizeZbxAmount", 1000);
 
     nObfuscationRounds = settings.value("nObfuscationRounds").toLongLong();
-    nAnonymizePrjAmount = settings.value("nAnonymizePrjAmount").toLongLong();
+    nAnonymizeZbxAmount = settings.value("nAnonymizeZbxAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
-    if (settings.contains("nAnonymizePrjAmount"))
-        SoftSetArg("-anonymizezencoinamount", settings.value("nAnonymizePrjAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeZbxAmount"))
+        SoftSetArg("-anonymizezencoinamount", settings.value("nAnonymizeZbxAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case ObfuscationRounds:
             return QVariant(nObfuscationRounds);
-        case AnonymizePrjAmount:
-            return QVariant(nAnonymizePrjAmount);
+        case AnonymizeZbxAmount:
+            return QVariant(nAnonymizeZbxAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nObfuscationRounds", nObfuscationRounds);
             emit obfuscationRoundsChanged(nObfuscationRounds);
             break;
-        case AnonymizePrjAmount:
-            nAnonymizePrjAmount = value.toInt();
-            settings.setValue("nAnonymizePrjAmount", nAnonymizePrjAmount);
-            emit anonymizePrjAmountChanged(nAnonymizePrjAmount);
+        case AnonymizeZbxAmount:
+            nAnonymizeZbxAmount = value.toInt();
+            settings.setValue("nAnonymizeZbxAmount", nAnonymizeZbxAmount);
+            emit anonymizeZbxAmountChanged(nAnonymizeZbxAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

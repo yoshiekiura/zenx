@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.zencoin.PrjPayment</string>
+      <string>io.zencoin.ZbxPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>zencoin</string>

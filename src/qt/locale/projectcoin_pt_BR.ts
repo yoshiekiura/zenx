@@ -3536,8 +3536,8 @@ https://www.transifex.com/zencoin-project/zencoin-project-translations</translat
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(11111 could be used only on mainnet)</source>
-        <translation>(11111 could be used only on mainnet)</translation>
+        <source>(22288 could be used only on mainnet)</source>
+        <translation>(22288 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3548,8 +3548,8 @@ https://www.transifex.com/zencoin-project/zencoin-project-translations</translat
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 11111 for mainnet)</source>
-        <translation>(deve ser 11111 para mainnet)</translation>
+        <source>(must be 22288 for mainnet)</source>
+        <translation>(deve ser 22288 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>

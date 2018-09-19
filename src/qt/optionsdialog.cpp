@@ -44,7 +44,7 @@ OptionsDialog::OptionsDialog(QWidget* parent, bool enableWallet) : QDialog(paren
     ui->percentage_label->setVisible(false);
     ui->obfuscationRounds->setVisible(false);
     ui->label_2->setVisible(false);
-    ui->anonymizePrj->setVisible(false);
+    ui->anonymizeZbx->setVisible(false);
 
 
     /* Main elements init */
@@ -230,7 +230,7 @@ void OptionsDialog::setMapper()
 
     /* Obfuscation Rounds */
     mapper->addMapping(ui->obfuscationRounds, OptionsModel::ObfuscationRounds);
-    mapper->addMapping(ui->anonymizePrj, OptionsModel::AnonymizePrjAmount);
+    mapper->addMapping(ui->anonymizeZbx, OptionsModel::AnonymizeZbxAmount);
 
     /* Masternode Tab */
     mapper->addMapping(ui->showMasternodesTab, OptionsModel::ShowMasternodesTab);

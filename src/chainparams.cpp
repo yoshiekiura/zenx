@@ -99,7 +99,7 @@ public:
         pchMessageStart[3] = 0x63;
         vAlertPubKey = ParseHex("0214a345c9add950bc2a23c569c40f029eb8d0385c86cfcc830a872737a98e6a5f");
 
-        nDefaultPort = 11111;
+        nDefaultPort = 22288;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnStartWork = ~uint256(0) >> 24;
 
@@ -113,7 +113,7 @@ public:
         // nAntiInstamineTime = 50; // 720 blocks with 1 reward for instamine prevention
         nMaturity = 228;
         nMasternodeCountDrift = 3;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 20000000 * COIN;
 
         nStartMasternodePaymentsBlock = 200;
 

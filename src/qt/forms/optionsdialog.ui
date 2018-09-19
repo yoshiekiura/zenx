@@ -179,7 +179,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QSpinBox" name="anonymizePrj">
+          <widget class="QSpinBox" name="anonymizezbx">
            <property name="minimum">
             <number>100</number>
            </property>

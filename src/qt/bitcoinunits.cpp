@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The PRJ Core developers
+// Copyright (c) 2017-2018 The ZBX Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PRJ);
-   // unitlist.append(mPRJ);
-   // unitlist.append(uPRJ);
+    unitlist.append(ZBX);
+   // unitlist.append(mZBX);
+   // unitlist.append(uZBX);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case PRJ:
-    case mPRJ:
-    case uPRJ:
+    case ZBX:
+    case mZBX:
+    case uZBX:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case PRJ:
-        return QString("prj");
-    case mPRJ:
-        return QString("mprj");
-    case uPRJ:
-        return QString::fromUtf8("uprj");
+    case ZBX:
+        return QString("zbx");
+    case mZBX:
+        return QString("mzbx");
+    case uZBX:
+        return QString::fromUtf8("uzbx");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PRJ:
-            return QString("PRJ");
-        case mPRJ:
-            return QString("PRJ");
-        case uPRJ:
-            return QString::fromUtf8("μPRJ");
+        case ZBX:
+            return QString("ZBX");
+        case mZBX:
+            return QString("ZBX");
+        case uZBX:
+            return QString::fromUtf8("μZBX");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PRJ:
-            return QString("tPRJ");
-        case mPRJ:
-            return QString("mPRJ");
-        case uPRJ:
-            return QString::fromUtf8("μtPRJ");
+        case ZBX:
+            return QString("tZBX");
+        case mZBX:
+            return QString("mZBX");
+        case uZBX:
+            return QString::fromUtf8("μZBX");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PRJ:
-            return QString("PRJ");
-        case mPRJ:
-            return QString("Milli-PRJ (1 / 1" THIN_SP_UTF8 "000)");
-        case uPRJ:
-            return QString("Micro-PRJ (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case ZBX:
+            return QString("ZBX");
+        case mZBX:
+            return QString("Milli-ZBX (1 / 1" THIN_SP_UTF8 "000)");
+        case uZBX:
+            return QString("Micro-ZBX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PRJ:
-            return QString("TestPRJs");
-        case mPRJ:
-            return QString("Milli-TestPRJs (1 / 1" THIN_SP_UTF8 "000)");
-        case uPRJ:
-            return QString("Micro-TestPRJs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case ZBX:
+            return QString("TestZBXs");
+        case mZBX:
+            return QString("Milli-TestZBXs (1 / 1" THIN_SP_UTF8 "000)");
+        case uZBX:
+            return QString("Micro-TestZBXs (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case PRJ:
+    case ZBX:
         return 100000000;
-    case mPRJ:
+    case mZBX:
         return 100000;
-    case uPRJ:
+    case uZBX:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case PRJ:
+    case ZBX:
         return 8;
-    case mPRJ:
+    case mZBX:
         return 5;
-    case uPRJ:
+    case uZBX:
         return 2;
     default:
         return 0;

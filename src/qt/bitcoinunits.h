@@ -58,9 +58,9 @@ public:
       @note Source: https://en.bitcoin.it/wiki/Units . Please add only sensible ones
      */
     enum Unit {
-        PRJ,
-        mPRJ,
-        uPRJ
+        ZBX,
+        mZBX,
+        uZBX
     };
 
     enum SeparatorStyle {

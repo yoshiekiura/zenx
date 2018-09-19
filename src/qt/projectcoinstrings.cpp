@@ -206,10 +206,10 @@ QT_TRANSLATE_NOOP("zencoin-core", ""
 QT_TRANSLATE_NOOP("zencoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("zencoin-core", "(11111 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("zencoin-core", "(22288 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("zencoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("zencoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("zencoin-core", "(must be 11111 for mainnet)"),
+QT_TRANSLATE_NOOP("zencoin-core", "(must be 22288 for mainnet)"),
 QT_TRANSLATE_NOOP("zencoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("zencoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("zencoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
