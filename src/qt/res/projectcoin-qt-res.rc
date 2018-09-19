@@ -1,5 +1,5 @@
-IDI_ICON1 ICON DISCARDABLE "icons/projectcoin.ico"
-IDI_ICON2 ICON DISCARDABLE "icons/projectcoin_testnet.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/zencoin.ico"
+IDI_ICON2 ICON DISCARDABLE "icons/zencoin_testnet.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ProjectCoin"
-            VALUE "FileDescription",    "ProjectCoin Core (OSS GUI client for ProjectCoin)"
+            VALUE "CompanyName",        "zencoin"
+            VALUE "FileDescription",    "zencoin Core (OSS GUI client for zencoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "projectcoin-qt"
+            VALUE "InternalName",       "zencoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "projectcoin-qt.exe"
-            VALUE "ProductName",        "ProjectCoin Core"
+            VALUE "OriginalFilename",   "zencoin-qt.exe"
+            VALUE "ProductName",        "zencoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -70,15 +70,15 @@ noinst_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += projectcoind
+  bin_PROGRAMS += zencoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += projectcoin-cli projectcoin-tx
+  bin_PROGRAMS += zencoin-cli zencoin-tx
 endif
 
 .PHONY: FORCE
-# projectcoin core #
+# zencoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -174,7 +174,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between projectcoind and projectcoin-qt
+# server: shared between zencoind and zencoin-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -215,7 +215,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between projectcoind and projectcoin-qt, but only linked
+# wallet: shared between zencoind and zencoin-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -275,7 +275,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_types.h
 
 
-# common: shared between projectcoind, and projectcoin-qt and non-server tools
+# common: shared between zencoind, and zencoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -333,7 +333,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between projectcoin-cli and projectcoin-qt
+# cli: shared between zencoin-cli and zencoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -343,16 +343,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# projectcoind binary #
-projectcoind_SOURCES = projectcoind.cpp
-projectcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-projectcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-projectcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# zencoind binary #
+zencoind_SOURCES = zencoind.cpp
+zencoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+zencoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zencoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-projectcoind_SOURCES += projectcoind-res.rc
+zencoind_SOURCES += zencoind-res.rc
 endif
-projectcoind_LDADD = \
+zencoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -364,41 +364,41 @@ projectcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-projectcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+zencoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# projectcoin-cli binary #
-projectcoin_cli_SOURCES = projectcoin-cli.cpp
-projectcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-projectcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-projectcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# zencoin-cli binary #
+zencoin_cli_SOURCES = zencoin-cli.cpp
+zencoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+zencoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zencoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-projectcoin_cli_SOURCES += projectcoin-cli-res.rc
+zencoin_cli_SOURCES += zencoin-cli-res.rc
 endif
 
-projectcoin_cli_LDADD = \
+zencoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-projectcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+zencoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# projectcoin-tx binary #
-projectcoin_tx_SOURCES = projectcoin-tx.cpp
-projectcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-projectcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-projectcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# zencoin-tx binary #
+zencoin_tx_SOURCES = zencoin-tx.cpp
+zencoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+zencoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+zencoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-projectcoin_tx_LDADD = \
+zencoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-projectcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+zencoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 if BUILD_BITCOIN_LIBS

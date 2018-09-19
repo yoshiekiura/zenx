@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both projectcoind and projectcoin-qt, to make it harder for attackers to
+ * for both zencoind and zencoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("ProjectCoin Core");
+const std::string CLIENT_NAME("zencoin Core");
 
 /**
  * Client version number

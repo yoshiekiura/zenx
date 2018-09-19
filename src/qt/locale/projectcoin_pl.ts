@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ProjectCoin&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE ProjectCoin!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR zencoin&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE zencoin!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ProjectCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ProjectCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this zencoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres zencoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>&amp;Rdzeń ProjectCoin</translation>
+        <source>zencoin Core</source>
+        <translation>&amp;Rdzeń zencoin</translation>
     </message>
     <message>
-        <source>Send coins to a ProjectCoin address</source>
-        <translation>Wyślij monety do adresu ProjectCoin</translation>
+        <source>Send coins to a zencoin address</source>
+        <translation>Wyślij monety do adresu zencoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and projectcoin: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i projectcoin:URI)</translation>
+        <source>Request payments (generates QR codes and zencoin: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i zencoin:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About ProjectCoin Core</source>
+        <source>&amp;About zencoin Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about ProjectCoin Core</source>
+        <source>Show information about zencoin Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for ProjectCoin</source>
-        <translation>Modyfikuj opcje konfiguracji ProjectCoin</translation>
+        <source>Modify configuration options for zencoin</source>
+        <translation>Modyfikuj opcje konfiguracji zencoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ProjectCoin addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami ProjectCoin, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your zencoin addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami zencoin, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ProjectCoin addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu ProjectCoin</translation>
+        <source>Verify messages to ensure they were signed with specified zencoin addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu zencoin</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a ProjectCoin: URI or payment request</source>
-        <translation>Otwórz ProjectCoin: URI i żądanie zapłaty</translation>
+        <source>Open a zencoin: URI or payment request</source>
+        <translation>Otwórz zencoin: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the ProjectCoin Core help message to get a list with possible ProjectCoin command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia ProjectCoin, aby dostać listę możliwych opcji ProjectCoin command-line</translation>
+        <source>Show the zencoin Core help message to get a list with possible zencoin command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia zencoin, aby dostać listę możliwych opcji zencoin command-line</translation>
     </message>
     <message>
-        <source>ProjectCoin Core client</source>
-        <translation>Rdzeń ProjectCoin klient</translation>
+        <source>zencoin Core client</source>
+        <translation>Rdzeń zencoin klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -916,8 +916,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>&amp;Rdzeń ProjectCoin</translation>
+        <source>zencoin Core</source>
+        <translation>&amp;Rdzeń zencoin</translation>
     </message>
     </context>
 <context>
@@ -931,8 +931,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>&amp;Rdzeń ProjectCoin</translation>
+        <source>zencoin Core</source>
+        <translation>&amp;Rdzeń zencoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1192,16 +1192,16 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start ProjectCoin after logging in to the system.</source>
-        <translation>Automatycznie uruchom ProjectCoin po zalogowaniu do systemu</translation>
+        <source>Automatically start zencoin after logging in to the system.</source>
+        <translation>Automatycznie uruchom zencoin po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start ProjectCoin on system login</source>
-        <translation>&amp;Uruchom ProjectCoin podczas logowania do systemu</translation>
+        <source>&amp;Start zencoin on system login</source>
+        <translation>&amp;Uruchom zencoin podczas logowania do systemu</translation>
     </message>
     <message>
-        <source>Amount of ProjectCoin to keep anonymized</source>
-        <translation>Liczba ProjectCoin do anonimizacji</translation>
+        <source>Amount of zencoin to keep anonymized</source>
+        <translation>Liczba zencoin do anonimizacji</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1220,18 +1220,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ProjectCoin.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie ProjectCoin</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting zencoin.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie zencoin</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projectcoin-project/projectcoin-project-translations</source>
+https://www.transifex.com/zencoin-project/zencoin-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/projectcoin-project/projectcoin-project-translations </translation>
+https://www.transifex.com/zencoin-project/zencoin-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the ProjectCoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią ProjectCoin poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the zencoin network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią zencoin poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1373,8 +1373,8 @@ https://www.transifex.com/projectcoin-project/projectcoin-project-translations <
         <translation>Status:</translation>
     </message>
     <message>
-        <source>0 ProjectCoin / 0 Rounds</source>
-        <translation>0 ProjectCoin / 0 Rund</translation>
+        <source>0 zencoin / 0 Rounds</source>
+        <translation>0 zencoin / 0 Rund</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
@@ -1458,8 +1458,8 @@ https://www.transifex.com/projectcoin-project/projectcoin-project-translations <
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a ProjectCoin address (e.g. %1)</source>
-        <translation>Wprowadź adres ProjectCoin (np. %1)</translation>
+        <source>Enter a zencoin address (e.g. %1)</source>
+        <translation>Wprowadź adres zencoin (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1897,8 +1897,8 @@ https://www.transifex.com/projectcoin-project/projectcoin-project-translations <
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ProjectCoin address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres ProjectCoin jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this zencoin address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres zencoin jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1932,8 +1932,8 @@ https://www.transifex.com/projectcoin-project/projectcoin-project-translations <
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>&amp;Rdzeń ProjectCoin</translation>
+        <source>zencoin Core</source>
+        <translation>&amp;Rdzeń zencoin</translation>
     </message>
     </context>
 <context>
@@ -2024,7 +2024,7 @@ https://www.transifex.com/projectcoin-project/projectcoin-project-translations <
     </message>
     </context>
 <context>
-    <name>projectcoin-core</name>
+    <name>zencoin-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

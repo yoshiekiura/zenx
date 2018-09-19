@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your ProjectCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina ProjectCoin adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your zencoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina zencoin adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your ProjectCoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina ProjectCoin adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your zencoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina zencoin adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>ProjectCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ProjectCoins from being stolen by malware infecting your computer.</source>
-        <translation>ProjectCoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina ProjectCoins från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>zencoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your zencoins from being stolen by malware infecting your computer.</source>
+        <translation>zencoin kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina zencoins från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ProjectCoin&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA ProjectCoin&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR zencoin&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA zencoin&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a ProjectCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en ProjectCoin adress som du vill kryptera med BIP 38.
+        <source>Enter a zencoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en zencoin adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The ProjectCoin address to sign the message with</source>
-        <translation>ProjectCoin adressen för signera meddelandet med</translation>
+        <source>The zencoin address to sign the message with</source>
+        <translation>zencoin adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ProjectCoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna ProjectCoin adress</translation>
+        <source>Sign the message to prove you own this zencoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna zencoin adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The ProjectCoin address the message was signed with</source>
-        <translation>ProjectCoin adressen meddelandet blev signerat med</translation>
+        <source>The zencoin address the message was signed with</source>
+        <translation>zencoin adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ProjectCoin address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika ProjectCoin adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified zencoin address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika zencoin adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Kärna</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a ProjectCoin address</source>
-        <translation>Skicka mynt till en ProjectCoin adress</translation>
+        <source>Send coins to a zencoin address</source>
+        <translation>Skicka mynt till en zencoin adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and projectcoin: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och projectcoin: URls)</translation>
+        <source>Request payments (generates QR codes and zencoin: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och zencoin: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About ProjectCoin Core</source>
-        <translation>Om ProjectCoin Kärnan</translation>
+        <source>&amp;About zencoin Core</source>
+        <translation>Om zencoin Kärnan</translation>
     </message>
     <message>
-        <source>Show information about ProjectCoin Core</source>
-        <translation>Visa information om ProjectCoin Kärnan</translation>
+        <source>Show information about zencoin Core</source>
+        <translation>Visa information om zencoin Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for ProjectCoin</source>
-        <translation>Ändra konfigurationsval för ProjectCoin</translation>
+        <source>Modify configuration options for zencoin</source>
+        <translation>Ändra konfigurationsval för zencoin</translation>
     </message>
     <message>
-        <source>Sign messages with your ProjectCoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din ProjectCoin adress för att visa att du äger dem</translation>
+        <source>Sign messages with your zencoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med din zencoin adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ProjectCoin addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika ProjectCoin adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified zencoin addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika zencoin adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>ProjectCoin Core client</source>
-        <translation>ProjectCoin kärn klient</translation>
+        <source>zencoin Core client</source>
+        <translation>zencoin kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -841,15 +841,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Kärna</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Kärna</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1106,8 +1106,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The ProjectCoin address to sign the message with</source>
-        <translation>ProjectCoin adressen för signera meddelandet med</translation>
+        <source>The zencoin address to sign the message with</source>
+        <translation>zencoin adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1130,16 +1130,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ProjectCoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna ProjectCoin adress</translation>
+        <source>Sign the message to prove you own this zencoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna zencoin adress</translation>
     </message>
     <message>
-        <source>The ProjectCoin address the message was signed with</source>
-        <translation>ProjectCoin adressen meddelandet blev signerat med</translation>
+        <source>The zencoin address the message was signed with</source>
+        <translation>zencoin adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ProjectCoin address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika ProjectCoin adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified zencoin address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika zencoin adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1181,8 +1181,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Kärna</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Kärna</translation>
     </message>
     </context>
 <context>
@@ -1365,7 +1365,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>projectcoin-core</name>
+    <name>zencoin-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

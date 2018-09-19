@@ -11,13 +11,13 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/projectcoin
-src/projectcoind
-src/projectcoin-cli
-src/projectcoin-tx
-src/test/test_projectcoin
-src/qt/test/test_projectcoin-qt
-src/bench/bench_projectcoin
+src/zencoin
+src/zencoind
+src/zencoin-cli
+src/zencoin-tx
+src/test/test_zencoin
+src/qt/test/test_zencoin-qt
+src/bench/bench_zencoin
 
 # autoreconf
 Makefile.in
@@ -43,8 +43,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/projectcoin-config.h
-src/config/projectcoin-config.h.in
+src/config/zencoin-config.h
+src/config/zencoin-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -69,7 +69,7 @@ libconftest.dylib*
 *.o
 *.o-*
 *.patch
-.projectcoin
+.zencoin
 *.a
 *.pb.cc
 *.pb.h
@@ -88,12 +88,12 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-projectcoin-qt
-ProjectCoin-Qt.app
+zencoin-qt
+zencoin-Qt.app
 
 # Unit-tests
 Makefile.test
-projectcoin-qt_test
+zencoin-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -107,7 +107,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_projectcoin.coverage/
+test_zencoin.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -131,14 +131,14 @@ share/BitcoindComparisonTool.jar
 /doc/doxygen/
 
 libbitcoinconsensus.pc
-libprojectcoinconsensus.pc
-src/qt/projectcoin-qt.bash
+libzencoinconsensus.pc
+src/qt/zencoin-qt.bash
 qa/pull-tester/tests-config.sh
 
 #development symlinks
-projectcoin-cli
-projectcoind
-projectcoin-qt
+zencoin-cli
+zencoind
+zencoin-qt
 make
 
 #development local files

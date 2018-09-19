@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between projectcoin-cli and projectcoind)
- * of a given instance of the ProjectCoin system.
+ * CBaseChainParams defines the base parameters (shared between zencoin-cli and zencoind)
+ * of a given instance of the zencoin system.
  */
 class CBaseChainParams
 {

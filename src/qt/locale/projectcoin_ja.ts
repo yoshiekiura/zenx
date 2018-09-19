@@ -263,6 +263,6 @@
     </message>
     </context>
 <context>
-    <name>projectcoin-core</name>
+    <name>zencoin-core</name>
     </context>
 </TS>

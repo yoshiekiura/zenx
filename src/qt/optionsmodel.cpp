@@ -1,12 +1,12 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018-2019 The ProjectCoin Core developers
+// Copyright (c) 2018-2019 The zencoin Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/projectcoin-config.h"
+#include "config/zencoin-config.h"
 #endif
 
 #include "optionsmodel.h"
@@ -148,7 +148,7 @@ void OptionsModel::Init()
     if (settings.contains("nObfuscationRounds"))
         SoftSetArg("-obfuscationrounds", settings.value("nObfuscationRounds").toString().toStdString());
     if (settings.contains("nAnonymizePrjAmount"))
-        SoftSetArg("-anonymizeprojectcoinamount", settings.value("nAnonymizePrjAmount").toString().toStdString());
+        SoftSetArg("-anonymizezencoinamount", settings.value("nAnonymizePrjAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -159,7 +159,7 @@ void OptionsModel::Reset()
 
     // Remove all entries from our QSettings object
     settings.clear();
-    resetSettings = true; // Needed in projectcoin.cpp during shotdown to also remove the window positions
+    resetSettings = true; // Needed in zencoin.cpp during shotdown to also remove the window positions
 
     // default setting for OptionsModel::StartAtStartup - disabled
     if (GUIUtil::GetStartOnSystemStartup())

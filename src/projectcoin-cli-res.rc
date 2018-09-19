@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ProjectCoin"
-            VALUE "FileDescription",    "ProjectCoin-cli (OSS RPC client for ProjectCoin)"
+            VALUE "CompanyName",        "zencoin"
+            VALUE "FileDescription",    "zencoin-cli (OSS RPC client for zencoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "projectcoin-cli"
+            VALUE "InternalName",       "zencoin-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "projectcoin-cli.exe"
-            VALUE "ProductName",        "ProjectCoin-cli"
+            VALUE "OriginalFilename",   "zencoin-cli.exe"
+            VALUE "ProductName",        "zencoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

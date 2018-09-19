@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "ProjectCoin"
-            VALUE "FileDescription",    "projectcoind (OSS daemon/client for ProjectCoin)"
+            VALUE "CompanyName",        "zencoin"
+            VALUE "FileDescription",    "zencoind (OSS daemon/client for zencoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "projectcoind"
+            VALUE "InternalName",       "zencoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "projectcoind.exe"
-            VALUE "ProductName",        "projectcoind"
+            VALUE "OriginalFilename",   "zencoind.exe"
+            VALUE "ProductName",        "zencoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

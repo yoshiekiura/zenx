@@ -1,2 +1,2 @@
-usr/local/bin/projectcoind usr/bin
-usr/local/bin/projectcoin-cli usr/bin
+usr/local/bin/zencoind usr/bin
+usr/local/bin/zencoin-cli usr/bin

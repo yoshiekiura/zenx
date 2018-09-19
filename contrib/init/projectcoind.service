@@ -1,19 +1,19 @@
 [Unit]
-Description=ProjectCoin's distributed currency daemon
+Description=zencoin's distributed currency daemon
 After=network.target
 
 [Service]
-User=projectcoin
-Group=projectcoin
+User=zencoin
+Group=zencoin
 
 Type=forking
-PIDFile=/var/lib/projectcoind/projectcoind.pid
+PIDFile=/var/lib/zencoind/zencoind.pid
 
-ExecStart=/usr/bin/projectcoind -daemon -pid=/var/lib/projectcoind/projectcoind.pid \
-          -conf=/etc/projectcoin/projectcoin.conf -datadir=/var/lib/projectcoind
+ExecStart=/usr/bin/zencoind -daemon -pid=/var/lib/zencoind/zencoind.pid \
+          -conf=/etc/zencoin/zencoin.conf -datadir=/var/lib/zencoind
 
-ExecStop=-/usr/bin/projectcoin-cli -conf=/etc/projectcoin/projectcoin.conf \
-         -datadir=/var/lib/projectcoind stop
+ExecStop=-/usr/bin/zencoin-cli -conf=/etc/zencoin/zencoin.conf \
+         -datadir=/var/lib/zencoind stop
 
 Restart=always
 PrivateTmp=true

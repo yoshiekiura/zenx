@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: projectcoind.service
-Upstart: projectcoind.conf
-OpenRC:  projectcoind.openrc
-         projectcoind.openrcconf
-CentOS:  projectcoind.init
+SystemD: zencoind.service
+Upstart: zencoind.conf
+OpenRC:  zencoind.openrc
+         zencoind.openrcconf
+CentOS:  zencoind.init
 
 have been made available to assist packagers in creating node packages here.
 

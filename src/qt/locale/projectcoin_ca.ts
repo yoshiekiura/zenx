@@ -164,8 +164,8 @@
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ProjectCoin&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES ProjectCoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR zencoin&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES zencoinS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -354,12 +354,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Core</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Core</translation>
     </message>
     <message>
-        <source>&amp;About ProjectCoin Core</source>
-        <translation>&amp;Sobre ProjectCoin Core</translation>
+        <source>&amp;About zencoin Core</source>
+        <translation>&amp;Sobre zencoin Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -552,12 +552,12 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Core</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Core</translation>
     </message>
     <message>
-        <source>About ProjectCoin Core</source>
-        <translation>Sobre ProjectCoin Core</translation>
+        <source>About zencoin Core</source>
+        <translation>Sobre zencoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -575,12 +575,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to ProjectCoin Core.</source>
-        <translation>Benvingut a ProjectCoin Core.</translation>
+        <source>Welcome to zencoin Core.</source>
+        <translation>Benvingut a zencoin Core.</translation>
     </message>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Core</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1132,8 +1132,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ProjectCoin Core</source>
-        <translation>ProjectCoin Core</translation>
+        <source>zencoin Core</source>
+        <translation>zencoin Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1292,7 +1292,7 @@
     </message>
     </context>
 <context>
-    <name>projectcoin-core</name>
+    <name>zencoin-core</name>
     <message>
         <source>Error</source>
         <translation>Error</translation>

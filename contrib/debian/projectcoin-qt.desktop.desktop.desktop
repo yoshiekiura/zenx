@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=ProjectCoin
-Comment=ProjectCoin P2P Cryptocurrency
-Exec=projectcoin-qt %u
+Name=zencoin
+Comment=zencoin P2P Cryptocurrency
+Exec=zencoin-qt %u
 Terminal=false
 Type=Application
-Icon=projectcoin128
-MimeType=x-scheme-handler/projectcoin;
+Icon=zencoin128
+MimeType=x-scheme-handler/zencoin;
 Categories=Office;Finance;
-Name[ru]=projectcoin-qt.desktop.desktop
+Name[ru]=zencoin-qt.desktop.desktop

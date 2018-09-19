@@ -471,8 +471,8 @@ void BlockExplorer::showEvent(QShowEvent*)
         updateNavButtons();
 
         if (!GetBoolArg("-txindex", false)) {
-            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (projectcoin.conf).");
-            QMessageBox::warning(this, "ProjectCoin Core Blockchain Explorer", Warning, QMessageBox::Ok);
+            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (zencoin.conf).");
+            QMessageBox::warning(this, "zencoin Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }
     }
 }

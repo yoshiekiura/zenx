@@ -7,7 +7,7 @@
 #define BITCOIN_COMPAT_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/projectcoin-config.h"
+#include "config/zencoin-config.h"
 #endif
 
 #ifdef WIN32
